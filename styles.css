@@ -5,4 +5,32 @@
 
 body {
     background: hsl(217, 54%, 11%);
+    font-size: 1.125rem;
+    color: hsl(215, 51%, 70%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.nft-info {
+    background: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    width: 21.875em;
+    height: 37.25em;
+    padding: 1.5em;
+}
+
+.nft-image {
+    width: 100%;
+}
+
+.creator-avatar {
+    width: 2.0625em;
+    height: 2.0625em;
 }
