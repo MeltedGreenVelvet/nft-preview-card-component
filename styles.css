@@ -8,6 +8,8 @@ body {
     font-size: 1.125rem;
     color: hsl(215, 51%, 70%);
     font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    line-height: 1.625rem;
 }
 
 .container {
@@ -23,14 +25,76 @@ body {
     border-radius: 15px;
     width: 21.875em;
     height: 37.25em;
-    padding: 1.5em;
+    padding: 1.5em 1.5em 1.0em 1.5em;
+}
+
+.purchase-info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #2E405A;
+    padding: 1.5em 0 0 0;
+}
+
+.purchase-info,
+.nft-title {
+    padding: 1.5rem 0;
 }
 
 .nft-image {
     width: 100%;
+    border-radius: 8px;
 }
 
 .creator-avatar {
     width: 2.0625em;
     height: 2.0625em;
+}
+
+.nft-title {
+    font-weight: 600;
+    line-height: 1.75rem;
+    color: #fff;
+    font-size: 1.375rem;
+}
+
+p {
+    font-weight: 300;
+    line-height: 1.625rem;
+}
+
+.nft-creator,
+.nft-info-font,
+.cost {
+    line-height: 1.25rem;
+}
+
+.cost {
+    color: #00FFF8;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.nft-creator {
+    color: #fff;
+}
+
+.icon-space {
+    margin-right: .5em;
+    position: relative;
+    bottom: -0.2em;
+}
+
+.nft-info-font {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #8BACD9;
+}
+
+.creator-avatar {
+    margin-right: 1em;
+    margin-top: .3em;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    position: relative;
+    bottom: -0.7em;
 }
