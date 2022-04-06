@@ -1,3 +1,9 @@
+/*
+-----------------------
+DEFAULTS
+-----------------------
+*/
+
 * {
     padding: 0;
     margin: 0;
@@ -11,6 +17,12 @@ body {
     font-weight: 400;
     line-height: 1.625rem;
 }
+
+/*
+-----------------------
+LAYOUT
+-----------------------
+*/
 
 .container {
     display: flex;
@@ -35,11 +47,6 @@ body {
     padding: 1.5em 0 0 0;
 }
 
-.purchase-info,
-.nft-title {
-    padding: 1.5rem 0;
-}
-
 .nft-image {
     width: 100%;
     border-radius: 8px;
@@ -49,6 +56,32 @@ body {
     width: 2.0625em;
     height: 2.0625em;
 }
+
+.icon-space {
+    margin-right: .5em;
+    position: relative;
+    bottom: -0.2em;
+}
+
+.purchase-info,
+.nft-title {
+    padding: 1.5rem 0;
+}
+
+.creator-avatar {
+    margin-right: 1em;
+    margin-top: .3em;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    position: relative;
+    bottom: -0.7em;
+}
+
+/*
+-----------------------
+TYPOGRAPHY
+-----------------------
+*/
 
 .nft-title {
     font-weight: 600;
@@ -78,23 +111,8 @@ p {
     color: #fff;
 }
 
-.icon-space {
-    margin-right: .5em;
-    position: relative;
-    bottom: -0.2em;
-}
-
 .nft-info-font {
     font-size: 1rem;
     font-weight: 400;
     color: #8BACD9;
-}
-
-.creator-avatar {
-    margin-right: 1em;
-    margin-top: .3em;
-    border: 1px solid #FFFFFF;
-    border-radius: 50%;
-    position: relative;
-    bottom: -0.7em;
 }
